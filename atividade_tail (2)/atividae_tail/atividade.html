@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-200 p-6">
+    <header class="bg-white max-w-full bg-white rounded-lg shadow p-8">
+        <nav>
+            <h1 class="font-bold text-center text-2xl text-sky-700">Jornal do Momento</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-white max-w-full bg-white rounded-lg shadow p-8 mt-6">
+            <h1 class="text-center font-bold mb-8 text-3xl text-sky-700">As Principais Notícias</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <article class="bg-white p-6 shadow">
+                    <h2 class="text-lg font-bold mb-2 text-sky-700">Tecnologia e Astronomia</h2>
+                    <p class="text-gray-600 text-justify">
+                        Uma equipe internacional de astrofísicos identificou uma sequência de rádio repetitiva com precisão matemática vindo de uma região a
+                        500 milhões de anos-luz. Embora a primeira suspeita seja um magnetar (uma estrela de nêutrons ultra-densa), a regularidade do sinal
+                        desafia os modelos atuais e reacendeu o debate sobre fenômenos cósmicos ainda desconhecidos.
+                    </p>
+                    <button class="p-2 bg-blue-400 rounded-lg border-2 border-sky-500 hover:bg-sky-200 hover:border-sky-700 hover:border-2">
+                        Saiba Mais
+                    </button>
+                </article>
+
+                <article class="bg-white p-6 shadow">
+                    <h2 class="text-lg font-bold mb-2 text-sky-700">Meio Ambiente e Curiosidades</h2>
+                    <p class="text-gray-600 text-justify">
+                        O que era considerado apenas um registro em livros de botânica do século XIX voltou à vida. A Glandularia magellanica,
+                        uma flor de pétalas roxas vibrantes, foi encontrada por pesquisadores locais durante uma expedição de mapeamento climático.
+                        O governo local agora corre para transformar a área em uma reserva de proteção integral.
+                    </p>
+                    <br>
+                    <button class="p-2 bg-blue-400 rounded-lg border-2 border-sky-500 hover:bg-sky-200 hover:border-sky-700 hover:border-2">
+                        Saiba Mais
+                    </button>
+                </article>
+
+                <article class="bg-white p-6 shadow">
+                    <h2 class="text-lg font-bold mb-2 text-sky-700">Gastronomia e Estilo de Vida</h2>
+                    <p class="text-gray-600 text-justify">
+                        Misturando fungos adaptógenos como o Lion's Mane com doses reduzidas de cafeína, a nova bebida promete foco prolongado sem a
+                        "tremedeira" do café comum. Cafeterias em grandes centros urbanos já reportam que 1 em cada 4 pedidos matinais busca a alternativa,
+                        impulsionada por uma geração focada em biohacking e bem-estar mental.
+                    </p>
+                    <br>
+                    <button class="p-2 bg-blue-400 rounded-lg border-2 border-sky-500 hover:bg-sky-200 hover:border-sky-700 hover:border-2">
+                        Saiba Mais
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <section class="mt-8 p-8 bg-white max-w-full bg-white rounded-lg ">
+            <h2 class="text-center font-bold text-2xl text-sky-700 mb-6">Outras Notícias</h2>
+            <div class="flex flex-col gap-8">
+                <article class="grid grid-cols-1 md:grid-cols-10 gap-6 border-b pb-8">
+                    <div class="md:col-span-2">
+                        <img src="./fotos/carro.jpg" class="rounded-lg w-full border-2" alt="Acidente">
+                    </div>
+                    <div class="md:col-span-7 flex flex-col justify-center">
+                        <h2 class="text-2xl font-bold text-sky-700">Acidente na Estrada</h2>
+                        <p class="text-gray-600 text-justify">Um grave acidente envolvendo dois veículos de passeio bloqueou parcialmente a Avenida
+                            Central na manhã desta terça-feira (18). Testemunhas relataram que um dos condutores desrespeitou o sinal vermelho,
+                            colidindo lateralmente com o outro carro que atravessava o cruzamento. Equipes do Corpo de Bombeiros foram
+                            acionadas para prestar socorro às vítimas. Ainda não há informações oficiais sobre o estado de saúde dos envolvidos.
+                        </p>
+                    </div>
+                </article>
+                <article class="grid grid-cols-1 md:grid-cols-10 gap-6 border-b pb-8">
+                    <div class="md:col-span-2">
+                        <img src="./fotos/TG.jpg" class="rounded-lg w-full border-2" alt="Novela">
+                    </div>
+                    <div class="md:col-span-7 flex flex-col justify-center">
+                        <h2 class="text-2xl font-bold text-sky-700">Novela</h2>
+                        <p class="text-gray-600 text-justify">Sucesso de audiência, a novela 'As Três Graças' entra em sua fase decisiva com a
+                            revelação de quem é o verdadeiro herdeiro da fortuna dos Valadares. O capítulo de ontem registrou recorde de público
+                            e as redes sociais não param de comentar a reviravolta na vida das protagonistas. Confira os bastidores e o que esperar
+                            do grande final.
+                        </p>
+                    </div>
+                </article>
+                <article class="grid grid-cols-1 md:grid-cols-10 gap-6 border-b pb-8">
+                    <div class="md:col-span-2">
+                        <img src="./fotos/guerra.jpg" class="rounded-lg w-full border-2" alt="Novela">
+                    </div>
+                    <div class="md:col-span-7 flex flex-col justify-center">
+                        <h2 class="text-2xl font-bold text-sky-700">Guerra</h2>
+                        <p class="text-gray-600 text-justify">Líderes mundiais se reúnem em caráter de urgência para discutir um possível cessar-fogo
+                            após a escalada dos ataques na última madrugada. O uso de novas tecnologias de drones e mísseis de longo alcance mudou a
+                            dinâmica do front, forçando um novo posicionamento das alianças militares. Especialistas acreditam que as próximas 48 horas
+                            serão decisivas para o futuro das negociações de paz.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-white mt-8 rounded-lg p-8">
+    <div class="max-w-full grid grid-cols-1 md:grid-cols-3 gap-8 border-b pb-8">    
+        <div>
+            <h3 class="font-bold text-sky-700 text-lg mb-4">Jornal do Momento</h3>
+            <p class="text-gray-600 text-sm">
+                Sua fonte diária de informações sobre tecnologia, meio ambiente e cotidiano. 
+                Compromisso com a verdade e a agilidade.
+            </p>
+        </div>
+
+        <div class="md:text-center">
+            <h3 class="font-bold text-sky-700 text-lg mb-4">Categorias</h3>
+            <ul class="text-gray-600 text-sm space-y-2">
+                <li><a href="#" class="hover:text-sky-500 transition">Tecnologia</a></li>
+                <li><a href="#" class="hover:text-sky-500 transition">Meio Ambiente</a></li>
+                <li><a href="#" class="hover:text-sky-500 transition">Gastronomia</a></li>
+            </ul>
+        </div>
+
+        <div class="md:text-right">
+            <h3 class="font-bold text-sky-700 text-lg mb-4">Contato</h3>
+            <p class="text-gray-600 text-sm">Email: redacao@jornalmomento.com</p>
+            <p class="text-gray-600 text-sm">Tel: (11) 9999-9999</p>
+            <div class="mt-4 flex md:justify-end gap-4 text-sky-700">
+                <span class="text-xs font-bold cursor-pointer hover:underline">Facebook</span>
+                <span class="text-xs font-bold cursor-pointer hover:underline">Instagram</span>
+                <span class="text-xs font-bold cursor-pointer hover:underline">Twitter</span>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-8">
+        <p>2026 Jornal do Momento. Todos os direitos reservados.</p>
+    </div>
+</footer>
+</body>
+</html>
